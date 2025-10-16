@@ -1,0 +1,46 @@
+body {
+  background-color: #121212;
+  color: #ddd;
+  font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 6px 8px;
+}
+
+th {
+  background-color: #2b2b2b;
+  color: #f1c40f;
+}
+
+.plus {
+  color: #4caf50; /* 緑 */
+  font-weight: bold;
+}
+
+.minus {
+  color: #e74c3c; /* 赤 */
+}
+
+.holy {
+  color: #f5df4d; /* 神聖＝黄金色 */
+  font-weight: bold;
+}
+
+.invalid {
+  color: #c0392b;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #191919;
+}
